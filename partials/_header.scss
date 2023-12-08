@@ -6,6 +6,7 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+
 i{
     color: $white-normal;
 }
@@ -19,7 +20,6 @@ i{
     i{
         animation: translateY 0.8s infinite alternate;
         color: $red-normal;
-
     }
 }
 
@@ -50,7 +50,7 @@ i{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 14px;
+    margin-top: 1px;
 }
 
 @media screen and (max-width: 768px) {
